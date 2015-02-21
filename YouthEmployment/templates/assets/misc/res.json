@@ -1,0 +1,130 @@
+[
+  {
+    "Institution name":"Memorial University of Newfoundland",
+    "Province":"NL",
+    "Room only":"3256",
+    "Meal plan only":"4460",
+    "Room and Meal plan package":"7716",
+    "Married students - room only":"7000"
+  },
+  {
+    "Institution name":"University of Prince Edward Island",
+    "Province":"PEI",
+    "Room only":"6120",
+    "Meal plan only":"4106",
+    "Room and Meal plan package":"10226",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"Acadia University",
+    "Province":"NS",
+    "Room only":"8240",
+    "Meal plan only":"4383",
+    "Room and Meal plan package":"12623",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"Atlantic School of Theology",
+    "Province":"NS",
+    "Room only":"3700",
+    "Meal plan only":"4944",
+    "Room and Meal plan package":"..",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"Cape Breton University",
+    "Province":"NS",
+    "Room only":"6380",
+    "Meal plan only":"4500",
+    "Room and Meal plan package":"..",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"Dalhousie University",
+    "Province":"NS",
+    "Room only":"7260",
+    "Meal plan only":"3455",
+    "Room and Meal plan package":"10715",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"University of King's College",
+    "Province":"NS",
+    "Room only":"9033",
+    "Meal plan only":"..",
+    "Room and Meal plan package":"..",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"Mount Saint Vincent University",
+    "Province":"NS",
+    "Room only":"6223",
+    "Meal plan only":"..",
+    "Room and Meal plan package":"9491",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"Nova Scotia College of Art and Design",
+    "Province":"NS",
+    "Room only":"..",
+    "Meal plan only":"..",
+    "Room and Meal plan package":"..",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"Université Sainte-Anne",
+    "Province":"NS",
+    "Room only":"4378",
+    "Meal plan only":"4182",
+    "Room and Meal plan package":"8560",
+    "Married students - room only":"7160"
+  },
+  {
+    "Institution name":"St. Francis Xavier University",
+    "Province":"NS",
+    "Room only":"7720",
+    "Meal plan only":"4950",
+    "Room and Meal plan package":"12670",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"Saint Mary's University",
+    "Province":"NS",
+    "Room only":"6400",
+    "Meal plan only":"3920",
+    "Room and Meal plan package":"9920",
+    "Married students - room only":"9200"
+  },
+  {
+    "Institution name":"Mount Allison University",
+    "Province":"NB",
+    "Room only":"5942",
+    "Meal plan only":"4250",
+    "Room and Meal plan package":"10192",
+    "Married students - room only":".."
+  },
+  {
+    "Institution name":"University of New Brunswick",
+    "Province":"NB",
+    "Room only":"7124",
+    "Meal plan only":"3943",
+    "Room and Meal plan package":"11067",
+    "Married students - room only":"8608"
+  },
+  {
+    "Institution name":"Université de Moncton",
+    "Province":"NB",
+    "Room only":"5763",
+    "Meal plan only":"..",
+    "Room and Meal plan package":"5763",
+    "Married students - room only":"5763"
+  },
+  {
+    "Institution name":"St. Thomas University",
+    "Province":"NB",
+    "Room only":"6780",
+    "Meal plan only":"3150",
+    "Room and Meal plan package":"9930",
+    "Married students - room only":".."
+  }
+]
