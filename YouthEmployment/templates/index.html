@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Youth Employment</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/dc.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/youthemployment.css' %}" />
+</head>
+<body>
+    <div class="testDiv">
+
+    </div>
+</body>
+
+<script src="{% static 'js/crossfilter.v1.min.js' %}"></script>
+<script src="{% static 'js/d3.js' %}"></script>
+<script src="{% static 'js/dc.js' %}"></script>
+<script src="{% static 'js/jquery-2.1.1.js' %}"></script>
+
+<script>
+    testData = {{ testData|safe }};
+    console.log(testData);
+    $(document).ready(
+            function() {
+                $('div.testDiv').text(testData['test']);
+            }
+    );
+</script>
+</html>
