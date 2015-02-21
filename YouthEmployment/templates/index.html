@@ -9,9 +9,11 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/youthemployment.css' %}" />
 </head>
 <body>
-    <div id="ca-chart">
-        <strong>Median Rent by Province</strong>
-        <a class="reset" href="javascript:canadaChart.filterAll();dc.redrawAll();">reset</a>
+    <div id="ca-chart" class="geo-chart">
+        <div class="chart-text">
+            <strong>Mean Rent by Province (Only Bachelor and One Bedroom)</strong>
+            <a class="reset" href="javascript:canadaChart.filterAll();dc.redrawAll();">reset</a>
+        </div>
     </div>
 </body>
 
@@ -26,6 +28,7 @@
     indexData = {{ indexData|safe }};
     geoJson = {{ geoJson|safe }};
 
+    var finalIndexData = [];
     indexData.forEach(function(d, i) {
         d.province = d.GEO.split(",")[1].trim();
         d.city = d.GEO.split(",")[0].trim();
@@ -50,19 +53,28 @@
                 d.province = splits[0];
             }
         }
+        d.Value = parseInt(d.Value);
 
 
+        if (d.Ref_Date == 2014 && !isNaN(d.Value) && d.UNIT != "Three bedroom units" && d.UNIT != "Two bedroom units") {
+            finalIndexData.push(d);
+        }
     });
 
-
+    /**
+     * Charts
+     */
     var canadaChart = dc.geoChoroplethChart("#ca-chart");
+    //var rentTimeChart = dc.seriesChart("#rent-series-chart");
 
-    var crossfilterObj = crossfilter(indexData);
+    var crossfilterObj = crossfilter(finalIndexData);
 
+    /**
+     * Dimensions & Groups
+     */
     var provincesDim = crossfilterObj.dimension(function(d){
         return d.province;
     });
-
     var medianRentByProvinceGroup = provincesDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
 
     function reduceAdd(p, v) {
@@ -100,7 +112,10 @@
             .center([60, 60])
             .scale(500);
 
-        canadaChart.width(990)
+    /**
+     * Chart attributes
+     */
+    canadaChart.width(990)
                 .height(500)
                 .dimension(provincesDim)
                 .group(medianRentByProvinceGroup)
@@ -112,7 +127,7 @@
                     }
                 })
                 .colors(d3.scale.quantize().range(["#E2F2FF", "#C4E4FF", "#9ED2FF", "#81C5FF", "#6BBAFF", "#51AEFF", "#36A2FF", "#1E96FF", "#0089FF", "#0061B5"]))
-                .colorDomain([0, 200])
+                .colorDomain([0, 5])
                 .colorCalculator(function (d) {
                     return d ? canadaChart.colors()(d) : '#ccc';
                 })
@@ -123,7 +138,8 @@
                     return "State: " + d.key + "\nTotal Amount Raised: " + numberFormat(d.value ? d.value : 0);
                 })
                 .projection(projection);
-        dc.renderAll();
+
+    dc.renderAll();
 
 
 </script>
