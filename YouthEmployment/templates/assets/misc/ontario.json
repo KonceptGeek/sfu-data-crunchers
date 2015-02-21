@@ -1,0 +1,4118 @@
+[
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"6011.6",
+    "Ancillary Fees":"885.69",
+    "Total Fees":"6897.29",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"5992",
+    "Ancillary Fees":"999.8",
+    "Total Fees":"6991.8",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"6021.8",
+    "Ancillary Fees":"1138.51",
+    "Total Fees":"7160.31",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"5907.95",
+    "Ancillary Fees":"959.31",
+    "Total Fees":"6867.26",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"5923.8",
+    "Ancillary Fees":"683.71",
+    "Total Fees":"6607.51",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"5966.4",
+    "Ancillary Fees":"1030.48",
+    "Total Fees":"6996.88",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"5707.2",
+    "Ancillary Fees":"1140.26",
+    "Total Fees":"6847.46",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"5985",
+    "Ancillary Fees":"779",
+    "Total Fees":"6764",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"6010.28",
+    "Ancillary Fees":"1067.26",
+    "Total Fees":"7077.54",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"4689.94",
+    "Ancillary Fees":"334.62",
+    "Total Fees":"5024.56",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"6040.26",
+    "Ancillary Fees":"2367.02",
+    "Total Fees":"8407.28",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"6053.1",
+    "Ancillary Fees":"911.93",
+    "Total Fees":"7065.03",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"7180.54",
+    "Ancillary Fees":"808",
+    "Total Fees":"7988.54",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"6040",
+    "Ancillary Fees":"1240.02",
+    "Total Fees":"7280.02",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"6040.21",
+    "Ancillary Fees":"1433.84",
+    "Total Fees":"7474.05",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"6054",
+    "Ancillary Fees":"835.76",
+    "Total Fees":"6889.76",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"5975",
+    "Ancillary Fees":"1246.93",
+    "Total Fees":"7221.93",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"$5,975 ",
+    "Ancillary Fees":"$1,506 ",
+    "Total Fees":"$7,481 ",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"$6,003 ",
+    "Ancillary Fees":"$1,405 ",
+    "Total Fees":"$7,407 ",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"$5,981 ",
+    "Ancillary Fees":"$1,013 ",
+    "Total Fees":"$6,995 ",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$5,896 ",
+    "Ancillary Fees":"$851 ",
+    "Total Fees":"$6,747 ",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,108 ",
+    "Total Fees":"$7,147 ",
+    "Program Name":"Arts and Science "
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$5,992 ",
+    "Ancillary Fees":"$1,000 ",
+    "Total Fees":"$6,992 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"$6,022 ",
+    "Ancillary Fees":"$1,139 ",
+    "Total Fees":"$7,160 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$5,908 ",
+    "Ancillary Fees":"$959 ",
+    "Total Fees":"$6,867 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$5,924 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$6,608 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"$5,707 ",
+    "Ancillary Fees":"$1,140 ",
+    "Total Fees":"$6,847 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$6,010 ",
+    "Ancillary Fees":"$1,050 ",
+    "Total Fees":"$7,061 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$6,053 ",
+    "Ancillary Fees":"$912 ",
+    "Total Fees":"$7,065 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$7,292 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$8,100 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,240 ",
+    "Total Fees":"$7,280 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,434 ",
+    "Total Fees":"$7,474 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$6,054 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$6,890 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$5,975 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$7,222 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$5,896 ",
+    "Ancillary Fees":"$846 ",
+    "Total Fees":"$6,742 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,141 ",
+    "Total Fees":"$7,180 ",
+    "Program Name":"Environmental Science/Studies"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$5,992 ",
+    "Ancillary Fees":"$1,000 ",
+    "Total Fees":"$6,992 ",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"$6,022 ",
+    "Ancillary Fees":"$1,139 ",
+    "Total Fees":"$7,160 ",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$7,292 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$8,100 ",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$5,975 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$7,222 ",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Household & Food Science"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"$6,012 ",
+    "Ancillary Fees":"$886 ",
+    "Total Fees":"$6,897 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$6,486 ",
+    "Ancillary Fees":"$1,000 ",
+    "Total Fees":"$7,486 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"$6,022 ",
+    "Ancillary Fees":"$1,139 ",
+    "Total Fees":"$7,160 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$5,908 ",
+    "Ancillary Fees":"$959 ",
+    "Total Fees":"$6,867 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$5,924 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$6,608 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$5,966 ",
+    "Ancillary Fees":"$1,025 ",
+    "Total Fees":"$6,991 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$6,010 ",
+    "Ancillary Fees":"$1,067 ",
+    "Total Fees":"$7,078 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$6,053 ",
+    "Ancillary Fees":"$912 ",
+    "Total Fees":"$7,065 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,801 ",
+    "Total Fees":"$7,841 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$6,054 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$6,890 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$5,975 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$7,222 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"$5,981 ",
+    "Ancillary Fees":"$1,013 ",
+    "Total Fees":"$6,995 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$5,896 ",
+    "Ancillary Fees":"$851 ",
+    "Total Fees":"$6,747 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,123 ",
+    "Total Fees":"$7,162 ",
+    "Program Name":"Music"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"$6,012 ",
+    "Ancillary Fees":"$886 ",
+    "Total Fees":"$6,897 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$5,908 ",
+    "Ancillary Fees":"$1,039 ",
+    "Total Fees":"$6,947 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$5,924 ",
+    "Ancillary Fees":"$709 ",
+    "Total Fees":"$6,633 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$5,966 ",
+    "Ancillary Fees":"$1,015 ",
+    "Total Fees":"$6,981 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"$5,707 ",
+    "Ancillary Fees":"$1,140 ",
+    "Total Fees":"$6,847 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$6,010 ",
+    "Ancillary Fees":"$1,050 ",
+    "Total Fees":"$7,061 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$6,053 ",
+    "Ancillary Fees":"$1,014 ",
+    "Total Fees":"$7,067 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,223 ",
+    "Total Fees":"$7,263 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$6,054 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$6,890 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$5,975 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$7,222 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"$5,981 ",
+    "Ancillary Fees":"$1,013 ",
+    "Total Fees":"$6,995 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$5,896 ",
+    "Ancillary Fees":"$901 ",
+    "Total Fees":"$6,797 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,108 ",
+    "Total Fees":"$7,147 ",
+    "Program Name":"Physical & Health Educ./Kinesiology"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$6,336 ",
+    "Ancillary Fees":"$1,002 ",
+    "Total Fees":"$7,338 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$5,908 ",
+    "Ancillary Fees":"$959 ",
+    "Total Fees":"$6,867 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$5,924 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$6,608 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$5,966 ",
+    "Ancillary Fees":"$1,030 ",
+    "Total Fees":"$6,997 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$7,292 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$8,100 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$6,003 ",
+    "Ancillary Fees":"$1,339 ",
+    "Total Fees":"$7,342 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"$6,003 ",
+    "Ancillary Fees":"$1,404 ",
+    "Total Fees":"$7,407 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"$5,981 ",
+    "Ancillary Fees":"$965 ",
+    "Total Fees":"$6,946 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$5,896 ",
+    "Ancillary Fees":"$851 ",
+    "Total Fees":"$6,747 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,108 ",
+    "Total Fees":"$7,147 ",
+    "Program Name":"Social Work "
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$8,791 ",
+    "Ancillary Fees":"$1,075 ",
+    "Total Fees":"$9,866 ",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"$8,585 ",
+    "Ancillary Fees":"$1,139 ",
+    "Total Fees":"$9,723 ",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$8,875 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$9,559 ",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$9,879 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$10,687 ",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,186 ",
+    "Total Fees":"$7,226 ",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$8,358 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$9,194 ",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Architecture & Landscape Architecture"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"$7,613 ",
+    "Ancillary Fees":"$904 ",
+    "Total Fees":"$8,517 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$7,300 ",
+    "Ancillary Fees":"$1,225 ",
+    "Total Fees":"$8,525 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"$7,904 ",
+    "Ancillary Fees":"$1,139 ",
+    "Total Fees":"$9,042 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$6,682 ",
+    "Ancillary Fees":"$959 ",
+    "Total Fees":"$7,641 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$6,796 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$7,480 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$8,552 ",
+    "Ancillary Fees":"$1,165 ",
+    "Total Fees":"$9,717 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"$7,183 ",
+    "Ancillary Fees":"$1,140 ",
+    "Total Fees":"$8,323 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$6,895 ",
+    "Ancillary Fees":"$1,268 ",
+    "Total Fees":"$8,163 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"$7,649 ",
+    "Ancillary Fees":"$2,377 ",
+    "Total Fees":"$10,026 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$15,590 ",
+    "Ancillary Fees":"$1,084 ",
+    "Total Fees":"$16,674 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$8,932 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$9,740 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$14,550 ",
+    "Ancillary Fees":"$1,240 ",
+    "Total Fees":"$15,790 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,464 ",
+    "Total Fees":"$7,504 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$16,056 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$16,892 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$23,948 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$25,195 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"$6,003 ",
+    "Ancillary Fees":"$1,404 ",
+    "Total Fees":"$7,407 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"$7,905 ",
+    "Ancillary Fees":"$1,156 ",
+    "Total Fees":"$9,061 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$8,011 ",
+    "Ancillary Fees":"$861 ",
+    "Total Fees":"$8,872 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$7,904 ",
+    "Ancillary Fees":"$1,160 ",
+    "Total Fees":"$9,064 ",
+    "Program Name":"Business & Commerce "
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"$7,613 ",
+    "Ancillary Fees":"$886 ",
+    "Total Fees":"$8,498 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$8,354 ",
+    "Ancillary Fees":"$1,001 ",
+    "Total Fees":"$9,355 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"$7,904 ",
+    "Ancillary Fees":"$1,139 ",
+    "Total Fees":"$9,042 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$5,908 ",
+    "Ancillary Fees":"$959 ",
+    "Total Fees":"$6,867 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$6,796 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$7,480 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$7,311 ",
+    "Ancillary Fees":"$1,155 ",
+    "Total Fees":"$8,466 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"$7,183 ",
+    "Ancillary Fees":"$1,140 ",
+    "Total Fees":"$8,323 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$7,547 ",
+    "Ancillary Fees":"$1,050 ",
+    "Total Fees":"$8,597 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$2,462 ",
+    "Total Fees":"$8,502 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$6,053 ",
+    "Ancillary Fees":"$1,027 ",
+    "Total Fees":"$7,080 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$8,976 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$9,784 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$10,460 ",
+    "Ancillary Fees":"$1,240 ",
+    "Total Fees":"$11,700 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,434 ",
+    "Total Fees":"$7,474 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$11,766 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$12,602 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$5,975 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$7,222 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"$5,981 ",
+    "Ancillary Fees":"$1,013 ",
+    "Total Fees":"$6,995 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$8,250 ",
+    "Ancillary Fees":"$861 ",
+    "Total Fees":"$9,111 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$7,904 ",
+    "Ancillary Fees":"$1,108 ",
+    "Total Fees":"$9,012 ",
+    "Program Name":"Computer Science"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$9,620 ",
+    "Ancillary Fees":"$1,090 ",
+    "Total Fees":"$10,710 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$7,177 ",
+    "Ancillary Fees":"$1,059 ",
+    "Total Fees":"$8,236 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$10,148 ",
+    "Ancillary Fees":"$1,155 ",
+    "Total Fees":"$11,303 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$8,612 ",
+    "Ancillary Fees":"$1,100 ",
+    "Total Fees":"$9,713 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"$8,584 ",
+    "Ancillary Fees":"$2,477 ",
+    "Total Fees":"$11,061 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$11,404 ",
+    "Ancillary Fees":"$1,106 ",
+    "Total Fees":"$12,509 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$10,463 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$11,271 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$12,772 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$13,608 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$11,240 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$12,487 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$10,500 ",
+    "Ancillary Fees":"$1,281 ",
+    "Total Fees":"$11,781 ",
+    "Program Name":"Computer, Electrical Software Eng."
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$33,910 ",
+    "Ancillary Fees":"$9,293 ",
+    "Total Fees":"$43,203 ",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$32,308 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$33,555 ",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Dentistry "
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"$7,214 ",
+    "Ancillary Fees":"$951 ",
+    "Total Fees":"$8,165 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$6,180 ",
+    "Ancillary Fees":"$959 ",
+    "Total Fees":"$7,139 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$5,924 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$6,608 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"$6,732 ",
+    "Ancillary Fees":"$1,140 ",
+    "Total Fees":"$7,873 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$6,010 ",
+    "Ancillary Fees":"$1,050 ",
+    "Total Fees":"$7,061 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$2,367 ",
+    "Total Fees":"$8,407 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$5,967 ",
+    "Ancillary Fees":"$1,016 ",
+    "Total Fees":"$6,983 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$6,700 ",
+    "Ancillary Fees":"$1,199 ",
+    "Total Fees":"$7,899 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,097 ",
+    "Total Fees":"$7,138 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$7,180 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$8,427 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"$7,948 ",
+    "Ancillary Fees":"$1,013 ",
+    "Total Fees":"$8,962 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$6,800 ",
+    "Ancillary Fees":"$900 ",
+    "Total Fees":"$7,700 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,076 ",
+    "Total Fees":"$7,116 ",
+    "Program Name":"Education (excluding AQs)"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$9,620 ",
+    "Ancillary Fees":"$1,090 ",
+    "Total Fees":"$10,710 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"$10,893 ",
+    "Ancillary Fees":"$1,219 ",
+    "Total Fees":"$12,111 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$7,177 ",
+    "Ancillary Fees":"$1,059 ",
+    "Total Fees":"$8,236 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$7,376 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$8,060 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$10,148 ",
+    "Ancillary Fees":"$1,155 ",
+    "Total Fees":"$11,303 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$8,612 ",
+    "Ancillary Fees":"$1,100 ",
+    "Total Fees":"$9,713 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"$8,584 ",
+    "Ancillary Fees":"$2,477 ",
+    "Total Fees":"$11,061 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$11,404 ",
+    "Ancillary Fees":"$1,106 ",
+    "Total Fees":"$12,509 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$10,463 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$11,271 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$12,980 ",
+    "Ancillary Fees":"$1,493 ",
+    "Total Fees":"$14,473 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$12,772 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$13,608 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$11,240 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$12,487 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$8,693 ",
+    "Ancillary Fees":"$917 ",
+    "Total Fees":"$9,610 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$7,904 ",
+    "Ancillary Fees":"$1,108 ",
+    "Total Fees":"$9,012 ",
+    "Program Name":"Engineering / Applied Science "
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$5,908 ",
+    "Ancillary Fees":"$1,209 ",
+    "Total Fees":"$7,117 ",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Forestry"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"$6,336 ",
+    "Ancillary Fees":"$1,000 ",
+    "Total Fees":"$7,336 ",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$6,010 ",
+    "Ancillary Fees":"$1,067 ",
+    "Total Fees":"$7,078 ",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$7,292 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$8,100 ",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,434 ",
+    "Total Fees":"$7,474 ",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"$5,981 ",
+    "Ancillary Fees":"$995 ",
+    "Total Fees":"$6,976 ",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Journalism"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$15,594 ",
+    "Ancillary Fees":"$1,004 ",
+    "Total Fees":"$16,599 ",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$16,061 ",
+    "Ancillary Fees":"$1,091 ",
+    "Total Fees":"$17,151 ",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$16,931 ",
+    "Ancillary Fees":"$1,144 ",
+    "Total Fees":"$18,075 ",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$30,230 ",
+    "Ancillary Fees":"$1,306 ",
+    "Total Fees":"$31,536 ",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$18,421 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$19,668 ",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Law "
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$16,049 ",
+    "Ancillary Fees":"$1,061 ",
+    "Total Fees":"$17,110 ",
+    "Program Name":"Law "
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$22,672 ",
+    "Ancillary Fees":"$1,305 ",
+    "Total Fees":"$23,977 ",
+    "Program Name":"Law "
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$25,545 ",
+    "Ancillary Fees":"$871 ",
+    "Total Fees":"$26,416 ",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$23,298 ",
+    "Ancillary Fees":"$1,050 ",
+    "Total Fees":"$24,348 ",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$23,440 ",
+    "Ancillary Fees":"$1,210 ",
+    "Total Fees":"$24,650 ",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$21,130 ",
+    "Ancillary Fees":"$1,295 ",
+    "Total Fees":"$22,425 ",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$22,788 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$24,035 ",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Medicine "
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"$6,012 ",
+    "Ancillary Fees":"$886 ",
+    "Total Fees":"$6,897 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"$5,908 ",
+    "Ancillary Fees":"$984 ",
+    "Total Fees":"$6,892 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"$5,924 ",
+    "Ancillary Fees":"$684 ",
+    "Total Fees":"$6,608 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"$5,966 ",
+    "Ancillary Fees":"$1,205 ",
+    "Total Fees":"$7,172 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"$5,707 ",
+    "Ancillary Fees":"$1,140 ",
+    "Total Fees":"$6,847 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"$6,010 ",
+    "Ancillary Fees":"$1,060 ",
+    "Total Fees":"$7,071 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$2,367 ",
+    "Total Fees":"$8,407 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"$6,053 ",
+    "Ancillary Fees":"$1,064 ",
+    "Total Fees":"$7,117 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"$7,292 ",
+    "Ancillary Fees":"$808 ",
+    "Total Fees":"$8,100 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$8,100 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$9,347 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"$6,040 ",
+    "Ancillary Fees":"$1,751 ",
+    "Total Fees":"$7,791 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"$5,975 ",
+    "Ancillary Fees":"$1,247 ",
+    "Total Fees":"$7,222 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"$5,896 ",
+    "Ancillary Fees":"$1,025 ",
+    "Total Fees":"$6,921 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"$7,904 ",
+    "Ancillary Fees":"$1,108 ",
+    "Total Fees":"$9,012 ",
+    "Program Name":"Nursing"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$14,138 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$14,974 ",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Optometry "
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"$16,530 ",
+    "Ancillary Fees":"$1,258 ",
+    "Total Fees":"$17,788 ",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"$18,182 ",
+    "Ancillary Fees":"$836 ",
+    "Total Fees":"$19,018 ",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Pharmacy"
+  },
+  {
+    "University":"Algoma",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Algoma » Brampton",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Brock University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Carleton University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"University of Guelph",
+    "Tuition Fees":"$8,585 ",
+    "Ancillary Fees":"$1,127 ",
+    "Total Fees":"$9,712 ",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Lakehead University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Laurentian University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"McMaster University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Nipissing University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"OCAD University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"University of Ottawa",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Ottawa » Saint Paul University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"UOIT",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Queen's University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Ryerson University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Toronto » All Campuses",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Toronto » St George",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Toronto » Mississauga",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Toronto » Scarborough",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Trent University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"University of Waterloo",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Western » Main Campus",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Western » Brescia University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Western » Huron University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Western » King's University College",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"Wilfrid Laurier University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"University of Windsor",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  },
+  {
+    "University":"York University",
+    "Tuition Fees":"..",
+    "Ancillary Fees":"..",
+    "Total Fees":"..",
+    "Program Name":"Veterinary Medicine"
+  }
+]
