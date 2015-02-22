@@ -330,7 +330,7 @@
 
         <div class="row">
             <div id ="data-count">
-                <aside id="dc-data-count"></aside>
+                <div id="dc-data-count"></div>
             </div>
         </div>
 
@@ -737,8 +737,8 @@
             .dimension(crossfilterObj)
             .group(all)
             .html({
-                some: '<strong>%filter-count</strong> selected out of <strong>%total-count</strong> records' + ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
-                all:'All records selected.'
+                some: '<a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
+                all:' '
             });
 
     dc.renderAll();
