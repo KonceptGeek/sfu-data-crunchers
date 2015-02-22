@@ -305,19 +305,19 @@
 
         <div class="row">
             <div class="col-md-6">
-                <div id="rent">
+                <div id="tuition">
                     <div class="chart-title">
-                        Rent Range
-                        <a class="reset" href="javascript:rent.filterAll();dc.redrawAll();">reset</a>
+                        Tuition Fees Range
+                        <a class="reset" href="javascript:tuition.filterAll();dc.redrawAll();">reset</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
-                <div id="tuition">
+                <div id="rent">
                     <div class="chart-title">
-                        Tuition Fees Range
-                        <a class="reset" href="javascript:tuition.filterAll();dc.redrawAll();">reset</a>
+                        Rent Range
+                        <a class="reset" href="javascript:rent.filterAll();dc.redrawAll();">reset</a>
                     </div>
                 </div>
             </div>
@@ -595,10 +595,10 @@
         return [0, 10000];
     };
 
-    margin = {top: 20, right: 20, bottom: 220, left: 270};
+    margin = {top: 20, right: 20, bottom: 210, left: 240};
     schoolProgramTuitionChart
             .width(700)
-            .height(1500)
+            .height(1670)
             .margins(margin)
             .dimension(schoolProgramDim)
             .group(schoolProgramTuitionGroup)
@@ -625,7 +625,7 @@
 
 
 
-    margin = {top: 53, right: 10, bottom: 50, left: 10};
+    margin = {top: 57, right: 10, bottom: 50, left: 10};
     schoolRent.width(600)
             .height(1500)
             .margins(margin)
