@@ -28,46 +28,13 @@
     indexData = {{ indexData|safe }};
     geoJson = {{ geoJson|safe }};
 
-    var finalIndexData = [];
-    indexData.forEach(function(d, i) {
-        d.province = d.GEO.split(",")[1].trim();
-        d.city = d.GEO.split(",")[0].trim();
-
-        if (d.province == "Yukon") {
-            d.province = "Yukon Territory";
-        }
-        if (d.province == "Newfoundland and Labrador") {
-            d.province = "Newfoundland  & Labrador";
-        }
-
-        if (d.province.indexOf(" part") > -1 ) {
-            var splits = d.province.split(" ");
-            if (splits.length > 2) {
-                var provinceName = "";
-                for (var i=0; i<splits.length -1; i++) {
-                    provinceName += splits[i];
-                    provinceName += " ";
-                }
-                d.province = provinceName.trim();
-            } else {
-                d.province = splits[0];
-            }
-        }
-        d.Value = parseInt(d.Value);
-
-
-        if (d.Ref_Date == 2014 && !isNaN(d.Value) && d.UNIT != "Three bedroom units" && d.UNIT != "Two bedroom units") {
-            finalIndexData.push(d);
-        }
-    });
-
     /**
      * Charts
      */
     var canadaChart = dc.geoChoroplethChart("#ca-chart");
     //var rentTimeChart = dc.seriesChart("#rent-series-chart");
 
-    var crossfilterObj = crossfilter(finalIndexData);
+    var crossfilterObj = crossfilter(indexData);
 
     /**
      * Dimensions & Groups
@@ -79,7 +46,7 @@
 
     function reduceAdd(p, v) {
         try {
-            var parsedVal = parseInt(v.Value);
+            var parsedVal = parseFloat(v.avgRent);
             if(!isNaN(parsedVal)) {
                 ++p.count;
                 p.total += parsedVal;
@@ -92,7 +59,7 @@
 
     function reduceRemove(p, v) {
         try {
-            var parsedVal = parseInt(v.Value);
+            var parsedVal = parseFloat(v.avgRent);
             if(!isNaN(parsedVal)) {
                 --p.count;
                 p.total -= parsedVal;

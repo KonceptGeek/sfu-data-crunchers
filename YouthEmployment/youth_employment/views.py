@@ -10,13 +10,13 @@ def index(request):
     print joinedPath
 
     context = RequestContext(request)
-    with open(joinedPath+'/rent.json') as rentFile:
-        rentJson = json.load(rentFile)
+    with open(joinedPath+'/cleanData.json') as data:
+        cleanData = json.load(data)
 
     with open(joinedPath+'/canada.geojson') as geoFile:
         geoJson = json.load(geoFile)
 
-    rentJson = json.dumps(rentJson)
+    cleanJson = json.dumps(cleanData)
     geoJson = json.dumps(geoJson)
-    contextDict = {'indexData': rentJson, 'geoJson': geoJson}
+    contextDict = {'indexData': cleanJson, 'geoJson': geoJson}
     return render_to_response('index.html', contextDict, context)
