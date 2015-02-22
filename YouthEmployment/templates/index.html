@@ -15,6 +15,15 @@
             <a class="reset" href="javascript:canadaChart.filterAll();dc.redrawAll();">reset</a>
         </div>
     </div>
+    <div id="province-school">
+        <a class="reset" href="javascript:provinceSchoolChart.filterAll();dc.redrawAll();">reset</a>
+    </div>
+    <div id="school-program-tution">
+        <a class="reset" href="javascript:schoolProgramTuitionChart.filterAll();dc.redrawAll();">reset</a>
+    </div>
+    <div id="school-rent">
+        <a class="reset" href="javascript:schoolRent.filterAll();dc.redrawAll();">reset</a>
+    </div>
 </body>
 
 <script src="{% static 'js/crossfilter.v1.min.js' %}"></script>
@@ -27,30 +36,48 @@
 
     indexData = {{ indexData|safe }};
     geoJson = {{ geoJson|safe }};
+    canadaJson = {{ canadaJson|safe }}
+
+    var minAvgRent = d3.min(indexData, function(d) {return d.avgRent;});
+    var maxAvgRent = d3.max(indexData, function(d) {return d.avgRent;});
+
+    var minProgramFees = d3.min(indexData, function(d) {return d.programFees;});
+    var maxProgramFees = d3.max(indexData, function(d) {return d.programFees;});
 
     /**
      * Charts
      */
     var canadaChart = dc.geoChoroplethChart("#ca-chart");
-    //var rentTimeChart = dc.seriesChart("#rent-series-chart");
+    canadaChart.turnOnControls(true);
+
+    var provinceSchoolChart = dc.rowChart("#province-school");
+    provinceSchoolChart.turnOnControls(true);
+
+    var schoolProgramTuitionChart = dc.heatMap("#school-program-tution");
+    schoolProgramTuitionChart.turnOnControls(true);
+
+    var schoolRent = dc.barChart("#school-rent");
+    schoolRent.turnOnControls(true);
 
     var crossfilterObj = crossfilter(indexData);
 
     /**
      * Dimensions & Groups
      */
-    var provincesDim = crossfilterObj.dimension(function(d){
-        return d.province;
+
+    /**
+     * canadaChart
+     */
+    var cityDim = crossfilterObj.dimension(function(d){
+        return d.city;
     });
-    var medianRentByProvinceGroup = provincesDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
+    var rentByCityGroup = cityDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
 
     function reduceAdd(p, v) {
         try {
             var parsedVal = parseFloat(v.avgRent);
-            if(!isNaN(parsedVal)) {
-                ++p.count;
-                p.total += parsedVal;
-            }
+            ++p.count;
+            p.total += parsedVal;
         } catch (e) {
             console.log(e);
         }
@@ -60,10 +87,8 @@
     function reduceRemove(p, v) {
         try {
             var parsedVal = parseFloat(v.avgRent);
-            if(!isNaN(parsedVal)) {
-                --p.count;
-                p.total -= parsedVal;
-            }
+            --p.count;
+            p.total -= parsedVal;
         } catch (e) {
             console.log(e);
         }
@@ -74,18 +99,93 @@
         return {count: 0, total: 0};
     }
 
+    /**
+     * provinceSchoolChart
+     */
+    var provinceDim = crossfilterObj.dimension(function(d){return d.province});
+    var schoolProvinceGroup = provinceDim.group().reduce(
+            //sum
+            function (p, d) {
+                if (d.institution in p.institutions) {
+                    p.institutions[d.institution] += 1;
+                } else {
+                    p.institutions[d.institution] = 1;
+                    p.institutionCount++;
+                }
+                return p;
+            },
+
+            //subtract
+            function(p, d) {
+                p.institutions[d.institution]--;
+                if(p.institutions[d.institution] === 0) {
+                    delete p.institutions[d.institution]
+                    p.institutionCount--;
+                }
+                return p;
+            },
+
+            //initialize
+            function() {
+                return {
+                    institutionCount: 0,
+                    institutions: {}
+                };
+            }
+    );
+
+    /**
+     * schoolProgramTuitionChart
+     */
+    var schoolProgramDim = crossfilterObj.dimension(function(d){
+        return [d.institution, d.program];
+    });
+    var schoolProgramTuitionGroup = schoolProgramDim.group().reduceSum(function(d){return d.programFees});
+
+
+    /**
+     * schoolRent
+     */
+    var schoolDim = crossfilterObj.dimension(function(d){return d.institution;});
+    var schoolRentGroup = schoolDim.group().reduce(
+            function(p, d) {
+                if (d.institution in p.institutions) {
+                    p.institutions[d.institution] += 1;
+                } else {
+                    p.institutions[d.institution] = 1;
+                    p.rent = d.avgRent;
+                }
+                return p;
+            },
+            function(p, d) {
+                p.institutions[d.institution]--;
+                if(p.institutions[d.institution] === 0) {
+                    delete p.institutions[d.institution]
+                    p.rent = 0;
+                }
+                return p;
+            },
+            function() {
+                return {
+                    rent: 0,
+                    institutions: []
+                }
+            }
+    );
+
+    /**
+     * Chart attributes
+     */
+    var margin = {top: 20, right: 20, bottom: 50, left: 50};
     var projection = d3.geo.conicConformal()
             .rotate([98, 0])
             .center([60, 60])
             .scale(500);
 
-    /**
-     * Chart attributes
-     */
     canadaChart.width(990)
                 .height(500)
-                .dimension(provincesDim)
-                .group(medianRentByProvinceGroup)
+                .dimension(cityDim)
+                .group(rentByCityGroup)
                 .valueAccessor(function (p) {
                     if (p.value){
                         return p.value.count > 0 ? p.value.total / p.value.count : 0;
@@ -98,14 +198,74 @@
                 .colorCalculator(function (d) {
                     return d ? canadaChart.colors()(d) : '#ccc';
                 })
-                .overlayGeoJson(geoJson.features, "state", function (d) {
-                    return d.properties.NAME;
+                .overlayGeoJson(canadaJson.features, "state", function(d){return d.properties.NAME;})
+                .overlayGeoJson(geoJson.features, "city", function (d) {
+                    return d.properties.NAME_ENG;
                 })
                 .title(function (d) {
                     return "State: " + d.key + "\nTotal Amount Raised: " + numberFormat(d.value ? d.value : 0);
                 })
                 .projection(projection);
 
+    provinceSchoolChart.width(400)
+            .height(300)
+            .margins(margin)
+            .dimension(provinceDim)
+            .group(schoolProvinceGroup)
+            .valueAccessor(function(d){return d.value.institutionCount;})
+            .renderLabel(true)
+            .elasticX(true)
+            .xAxis().ticks(20);
+
+    var heatColorMapping = function(d) {
+        return d3.scale.linear().domain([minProgramFees, maxProgramFees]).range(["#e5e5e5", "red"])(d);
+    };
+
+    heatColorMapping.domain = function() {
+        return [minProgramFees, maxProgramFees];
+    };
+
+    schoolProgramTuitionChart
+            .width(1000)
+            .height(500)
+            .margins(margin)
+            .dimension(schoolProgramDim)
+            .group(schoolProgramTuitionGroup)
+            .keyAccessor(function(d) { return d.key[0]; })
+            .valueAccessor(function(d) { return d.key[1]; })
+            .colorAccessor(function(d) { return d.value; })
+            .title(function(d) {
+                return " School: " + d.key[0] + "\n" +
+                        " Program: " + d.key[1] + "\n" +
+                        " TuitionFee: CAD" + d.value;})
+            .colors(heatColorMapping)
+            .calculateColorDomain();
+
+    schoolProgramTuitionChart.rowsLabel(function(d) { return d; });
+    schoolProgramTuitionChart.colsLabel(function(d) { return d; });
+    schoolProgramTuitionChart.xBorderRadius(1);
+    schoolProgramTuitionChart.yBorderRadius(1);
+
+
+    schoolRent.width(1000)
+            .height(500)
+            .margins(margin)
+            .dimension(schoolDim)
+            .group(schoolRentGroup)
+            .valueAccessor(function (d) {
+                return d.value.rent;
+            })
+            .centerBar(true)
+            .y(d3.scale.linear().domain([minAvgRent-50, maxAvgRent]))
+            .x(d3.scale.ordinal())
+            .xUnits(dc.units.ordinal);
+
+    schoolRent.renderlet(function(chart){
+        chart.selectAll("g.x text")
+                .attr('dx', '50')
+                .attr('dy', '-2')
+                .attr('transform', "rotate(90)");
+    });
     dc.renderAll();
 
 

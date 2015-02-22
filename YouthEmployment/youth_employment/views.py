@@ -7,16 +7,19 @@ import os
 def index(request):
     currentDir = os.path.dirname(os.path.realpath(__file__))
     joinedPath = os.path.join(currentDir,'../templates/assets/misc')
-    print joinedPath
 
     context = RequestContext(request)
-    with open(joinedPath+'/cleanData.json') as data:
-        cleanData = json.load(data)
+    with open(joinedPath+'/cleanData.json') as dataFile:
+        cleanData = json.load(dataFile)
 
-    with open(joinedPath+'/canada.geojson') as geoFile:
+    with open(joinedPath+'/cities.geojson') as geoFile:
         geoJson = json.load(geoFile)
+
+    with open(joinedPath+'/canada.geojson') as canadaGeoFile:
+        canadaGeo = json.load(canadaGeoFile)
 
     cleanJson = json.dumps(cleanData)
     geoJson = json.dumps(geoJson)
-    contextDict = {'indexData': cleanJson, 'geoJson': geoJson}
+    canadaJson = json.dumps(canadaGeo)
+    contextDict = {'indexData': cleanJson, 'geoJson': geoJson, 'canadaJson': canadaJson}
     return render_to_response('index.html', contextDict, context)
