@@ -15,6 +15,7 @@
             <a class="reset" href="javascript:canadaChart.filterAll();dc.redrawAll();">reset</a>
         </div>
     </div>
+    <div id="province-school"></div>
 </body>
 
 <script src="{% static 'js/crossfilter.v1.min.js' %}"></script>
@@ -27,30 +28,29 @@
 
     indexData = {{ indexData|safe }};
     geoJson = {{ geoJson|safe }};
+    canadaJson = {{ canadaJson|safe }}
 
     /**
      * Charts
      */
     var canadaChart = dc.geoChoroplethChart("#ca-chart");
-    //var rentTimeChart = dc.seriesChart("#rent-series-chart");
+    var provinceSchoolChart = dc.pieChart("#province-school");
 
     var crossfilterObj = crossfilter(indexData);
 
     /**
      * Dimensions & Groups
      */
-    var provincesDim = crossfilterObj.dimension(function(d){
-        return d.province;
+    var cityDim = crossfilterObj.dimension(function(d){
+        return d.city;
     });
-    var medianRentByProvinceGroup = provincesDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
+    var rentByCityGroup = cityDim.group().reduce(reduceAdd, reduceRemove, reduceInitial);
 
     function reduceAdd(p, v) {
         try {
             var parsedVal = parseFloat(v.avgRent);
-            if(!isNaN(parsedVal)) {
-                ++p.count;
-                p.total += parsedVal;
-            }
+            ++p.count;
+            p.total += parsedVal;
         } catch (e) {
             console.log(e);
         }
@@ -60,10 +60,8 @@
     function reduceRemove(p, v) {
         try {
             var parsedVal = parseFloat(v.avgRent);
-            if(!isNaN(parsedVal)) {
-                --p.count;
-                p.total -= parsedVal;
-            }
+            --p.count;
+            p.total -= parsedVal;
         } catch (e) {
             console.log(e);
         }
@@ -74,18 +72,51 @@
         return {count: 0, total: 0};
     }
 
+    var provinceDim = crossfilterObj.dimension(function(d){return d.province});
+    var schoolProvinceGroup = provinceDim.group().reduce(
+            //sum
+            function (p, d) {
+                if (d.institution in p.institutions) {
+                    p.institutions[d.institution] += 1;
+                } else {
+                    p.institutions[d.institution] = 1;
+                    p.institutionCount++;
+                }
+                return p;
+            },
+
+            //subtract
+            function(p, d) {
+                p.institutions[d.institution]--;
+                if(p.institutions[d.institution] === 0) {
+                    delete p.institutions[d.institution]
+                    p.institutionCount--;
+                }
+                return p;
+            },
+
+            //initialize
+            function() {
+                return {
+                    institutionCount: 0,
+                    institutions: {}
+                };
+            }
+    );
+
+
+    /**
+     * Chart attributes
+     */
     var projection = d3.geo.conicConformal()
             .rotate([98, 0])
             .center([60, 60])
             .scale(500);
 
-    /**
-     * Chart attributes
-     */
     canadaChart.width(990)
                 .height(500)
-                .dimension(provincesDim)
-                .group(medianRentByProvinceGroup)
+                .dimension(cityDim)
+                .group(rentByCityGroup)
                 .valueAccessor(function (p) {
                     if (p.value){
                         return p.value.count > 0 ? p.value.total / p.value.count : 0;
@@ -98,13 +129,21 @@
                 .colorCalculator(function (d) {
                     return d ? canadaChart.colors()(d) : '#ccc';
                 })
-                .overlayGeoJson(geoJson.features, "state", function (d) {
-                    return d.properties.NAME;
+                .overlayGeoJson(canadaJson.features, "state", function(d){return d.properties.NAME;})
+                .overlayGeoJson(geoJson.features, "city", function (d) {
+                    return d.properties.NAME_ENG;
                 })
                 .title(function (d) {
                     return "State: " + d.key + "\nTotal Amount Raised: " + numberFormat(d.value ? d.value : 0);
                 })
                 .projection(projection);
+
+    provinceSchoolChart.width(180)
+            .height(180)
+            .radius(80)
+            .innerRadius(30)
+            .dimension(provinceDim)
+            .group(schoolProvinceGroup);
 
     dc.renderAll();
 
