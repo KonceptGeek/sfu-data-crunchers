@@ -293,40 +293,36 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div id="school-program-tution">
                     <div class="chart-title">
-                        School vs Program (Heated based on tuition)
-                        <a class="reset" href="javascript:schoolProgramTuitionChart.filterAll();dc.redrawAll();">reset</a>
+                        <p>School vs Program (Heated based on tuition) <a class="reset" href="javascript:schoolProgramTuitionChart.filterAll();dc.redrawAll();">reset</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div id="school-rent">
                     <div class="chart-title">
-                        School vs Average Rent
-                        <a class="reset" href="javascript:schoolRent.filterAll();dc.redrawAll();">reset</a>
+                        <p>School vs Average Rent <a class="reset" href="javascript:schoolRent.filterAll();dc.redrawAll();">reset</a></p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-7">
                 <div id="tuition">
                     <div class="chart-title">
-                        Tuition Fees Range
-                        <a class="reset" href="javascript:tuition.filterAll();dc.redrawAll();">reset</a>
+                        <p>Tuition Fees Range <a class="reset" href="javascript:tuition.filterAll();dc.redrawAll();">reset</a></p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div id="rent">
                     <div class="chart-title">
-                        Rent Range
-                        <a class="reset" href="javascript:rent.filterAll();dc.redrawAll();">reset</a>
+                        <p>Rent Range <a class="reset" href="javascript:rent.filterAll();dc.redrawAll();">reset</a></p>
                     </div>
                 </div>
             </div>
@@ -572,7 +568,7 @@
      * Chart attributes
      */
 
-    var margin = {top: 20, right: 20, bottom: 50, left: 50};
+    var margin = {top: 20, right: 20, bottom: 50, left: 20};
     var projection = d3.geo.albers().rotate([100, 0]).center([40, 54]).scale(600);
 
     canadaChart.dimension(cityDim)
@@ -648,7 +644,6 @@
     var rentColorMapping = function(d) {
         var province = schoolToProvinceMapping[d];
         var color = colors[province];
-        console.log(color);
         return d3.scale.ordinal(color);
     };
 
@@ -656,10 +651,10 @@
         return [0, 10000];
     };
 
-    margin = {top: 57, right: 10, bottom: 50, left: 10};
+    margin = {top: 57, right: 20, bottom: 50, left: 30};
     var colors = {"Alberta": 0, "British Columbia": 1, "Manitoba": 2, "New Brunswick": 3, "Newfoundland and Labrador": 4, "Nova Scotia": 5, "Ontario": 6, "Prince Edward Island": 7, "Quebec": 8, "Saskatchewan": 9};
 
-    schoolRent.width(600)
+    schoolRent.width(575)
             .height(1500)
             .margins(margin)
             .dimension(schoolDim)
@@ -682,8 +677,8 @@
     schoolRent.fixedBarHeight(13);
 
 
-    margin = {top: 20, right: 20, bottom: 50, left: 50};
-    rent.width(600)
+    margin = {top: 20, right: 20, bottom: 50, left: 30};
+    rent.width(575)
             .height(100)
             .margins(margin)
             .dimension(rentDim)
@@ -706,7 +701,7 @@
 
     rent.yAxis().ticks(0);
 
-    tuition.width(600)
+    tuition.width(700)
             .height(100)
             .margins(margin)
             .dimension(tuitionDim)

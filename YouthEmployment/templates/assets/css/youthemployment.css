@@ -63,7 +63,11 @@ h1 {
     text-transform: uppercase;
 }
 
-.dc-chart g.row text {fill: #555;}
+.dc-chart g.row text {
+    fill: #555;
+    font-family: 'Oswald', serif;
+    font-size: 9px;
+}
 
 .chart {
     margin-top: 10px;
@@ -71,6 +75,7 @@ h1 {
 
 .dc-chart .axis text {
     fill: #555;
+    font-family: 'Oswald', serif;
 }
 
 .dc-chart .axis path, .axis line {
