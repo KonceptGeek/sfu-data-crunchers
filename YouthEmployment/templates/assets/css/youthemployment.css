@@ -43,6 +43,16 @@ h2 {
     padding: 30px 0 50px 0;
 }
 
+.tagline-footer {
+    text-align: center;
+}
+
+.tagline-footer .lead {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
 .padding-70 {
     padding: 70px 0;
 }
@@ -60,8 +70,16 @@ h2 {
     margin-top: 50px;
 }
 
+.m-bottom-50 {
+    margin-bottom: 50px;
+}
+
 .button-link {
     margin-left: 10px;
+}
+
+.authors {
+    text-align: center;
 }
 /*For charts*/
 
