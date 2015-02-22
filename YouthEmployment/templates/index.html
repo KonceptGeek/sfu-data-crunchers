@@ -328,6 +328,12 @@
             </div>
         </div>
 
+        <div class="row">
+            <div id ="data-count">
+                <div id="dc-data-count"></div>
+            </div>
+        </div>
+
 
     </div>
     <div class="tagline m-top-50">
@@ -398,6 +404,8 @@
 
     var tuition = dc.barChart("#tuition");
     tuition.turnOnControls(true);
+
+    var dataCount = dc.dataCount('#dc-data-count');
 
     var crossfilterObj = crossfilter(indexData);
 
@@ -733,6 +741,14 @@
 
     tuition.yAxis().ticks(0);
 
+    var all = crossfilterObj.groupAll();
+    dataCount
+            .dimension(crossfilterObj)
+            .group(all)
+            .html({
+                some: '<a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
+                all:' '
+            });
 
     dc.renderAll();
 
