@@ -4,11 +4,7 @@ body {
 
 
 h1 {
-    font-family: 'Graduate', cursive;
-    color: #4A3A47;
-    font-size: 42px;
-    text-align: center;
-    font-weight: 700;
+    display: none;
 }
 
 h2 {
