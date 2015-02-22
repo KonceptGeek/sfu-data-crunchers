@@ -15,6 +15,10 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">SFU Data Crunchers</a>
             </div>
+            <button type="button" download="data.csv" class="btn btn-default" aria-label="Download Data" id="download-data">
+                <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>  Download Data
+            </button>
+            
         </div>
     </nav>
 
@@ -692,6 +696,32 @@
 
 
     dc.renderAll();
+
+    function downloadData() {
+        var allData = provinceDim.top(Infinity);
+        var result = [];
+        for (var i in allData) {
+            var newRecord = {};
+            var record = allData[i];
+            newRecord['Province'] = record['province'];
+            newRecord['City'] = record['city'];
+            newRecord['AverageHousingRent'] = record['avgRent'].toFixed(2);
+            newRecord['University/College'] = record['institution'];
+            newRecord['Program'] = record['program'];
+            newRecord['ProgramFees'] = record['programFees'];
+            result.push(newRecord);
+        }
+        var csv = d3.csv.format(result);
+        var csvData = 'data:application/csv;charset=utf-8,' + csv;
+
+        var encodedUri = encodeURI(csvData);
+        window.open(encodedUri);
+    }
+
+    $("#download-data").on('click', function () {
+        downloadData();
+    });
+
 
 
 </script>
