@@ -336,6 +336,7 @@
             //.margins(margin)
             .dimension(provinceDim)
             .group(schoolProvinceGroup)
+            .transitionDuration(500)
             .valueAccessor(function(d){return d.value.institutionCount;})
             .renderLabel(true)
             .elasticX(true)
@@ -352,10 +353,11 @@
     margin = {top: 20, right: 20, bottom: 50, left: 150};
     schoolProgramTuitionChart
             .width(700)
-            .height(1200)
+            .height(1500)
             .margins(margin)
             .dimension(schoolProgramDim)
             .group(schoolProgramTuitionGroup)
+            .transitionDuration(500)
             .keyAccessor(function(d) { return d.key[0]; })
             .valueAccessor(function(d) { return d.key[1]; })
             .colorAccessor(function(d) { return d.value; })
@@ -378,19 +380,20 @@
 
 
 
-    margin = {top: 60, right: 10, bottom: 50, left: 10};
+    margin = {top: 53, right: 10, bottom: 50, left: 10};
     schoolRent.width(600)
-            .height(1200)
+            .height(1500)
             .margins(margin)
             .dimension(schoolDim)
             .group(schoolRentGroup)
+            .transitionDuration(500)
             .valueAccessor(function (d) {
                 return d.value.rent;
             })
             .renderLabel(false)
             .gap(0)
             .elasticX(true);
-    schoolRent.fixedBarHeight(10);
+    schoolRent.fixedBarHeight(13);
     /*schoolRent.renderlet(function(chart){
         chart.selectAll("g.x text")
                 .attr('dx', '-8')
@@ -400,7 +403,7 @@
     });*/
 
     margin = {top: 20, right: 20, bottom: 50, left: 50};
-    rent.width(1000)
+    rent.width(1200)
             .height(100)
             .margins(margin)
             .dimension(rentDim)
@@ -423,7 +426,7 @@
 
     rent.yAxis().ticks(0);
 
-    tuition.width(1000)
+    tuition.width(1200)
             .height(100)
             .margins(margin)
             .dimension(tuitionDim)
