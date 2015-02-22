@@ -15,7 +15,12 @@
             <a class="reset" href="javascript:canadaChart.filterAll();dc.redrawAll();">reset</a>
         </div>
     </div>
-    <div id="province-school"></div>
+    <div id="province-school">
+        <a class="reset" href="javascript:provinceSchoolChart.filterAll();dc.redrawAll();">reset</a>
+    </div>
+    <div id="school-program-tution">
+        <a class="reset" href="javascript:schoolProgramTuitionChart.filterAll();dc.redrawAll();">reset</a>
+    </div>
 </body>
 
 <script src="{% static 'js/crossfilter.v1.min.js' %}"></script>
@@ -34,12 +39,22 @@
      * Charts
      */
     var canadaChart = dc.geoChoroplethChart("#ca-chart");
-    var provinceSchoolChart = dc.pieChart("#province-school");
+    canadaChart.turnOnControls(true);
+
+    var provinceSchoolChart = dc.rowChart("#province-school");
+    provinceSchoolChart.turnOnControls(true);
+
+    var schoolProgramTuitionChart = dc.heatMap("#school-program-tution");
+    schoolProgramTuitionChart.turnOnControls(true);
 
     var crossfilterObj = crossfilter(indexData);
 
     /**
      * Dimensions & Groups
+     */
+
+    /**
+     * canadaChart
      */
     var cityDim = crossfilterObj.dimension(function(d){
         return d.city;
@@ -72,6 +87,9 @@
         return {count: 0, total: 0};
     }
 
+    /**
+     * provinceSchoolChart
+     */
     var provinceDim = crossfilterObj.dimension(function(d){return d.province});
     var schoolProvinceGroup = provinceDim.group().reduce(
             //sum
@@ -103,6 +121,14 @@
                 };
             }
     );
+
+    /**
+     * schoolProgramTuitionChart
+     */
+    var schoolProgramDim = crossfilterObj.dimension(function(d){
+        return [d.institution, d.program];
+    });
+    var schoolProgramTuitionGroup = schoolProgramDim.group().reduceSum(function(d){return d.programFees});
 
 
     /**
@@ -138,12 +164,41 @@
                 })
                 .projection(projection);
 
-    provinceSchoolChart.width(180)
-            .height(180)
-            .radius(80)
-            .innerRadius(30)
+    provinceSchoolChart.width(400)
+            .height(300)
             .dimension(provinceDim)
-            .group(schoolProvinceGroup);
+            .group(schoolProvinceGroup)
+            .valueAccessor(function(d){return d.value.institutionCount;})
+            .renderLabel(true)
+            .elasticX(true)
+            .xAxis().ticks(20);
+
+    var heatColorMapping = function(d) {
+        return d3.scale.linear().domain([2000,20000]).range(["#e5e5e5", "red"])(d);
+
+    };
+    heatColorMapping.domain = function() {
+        return [0,20000];
+    };
+
+    schoolProgramTuitionChart
+            .width(1000)
+            .height(500)
+            //.margins({left: 50})
+            .dimension(schoolProgramDim)
+            .group(schoolProgramTuitionGroup)
+            .keyAccessor(function(d) { return d.key[0]; })
+            .valueAccessor(function(d) { return d.key[1]; })
+            .colorAccessor(function(d) { return d.value; })
+            .title(function(d) {
+                return " School: " + d.key[0] + "\n" +
+                        " Program: " + d.key[1] + "\n" +
+                        " TuitionFee: CAD" + d.value;})
+            .colors(heatColorMapping)
+            .calculateColorDomain();
+
+    schoolProgramTuitionChart.xBorderRadius(1);
+    schoolProgramTuitionChart.yBorderRadius(1);
 
     dc.renderAll();
 
