@@ -94,3 +94,7 @@ h2 {
 .dc-chart .axis path, .axis line {
     stroke: #555;
 }
+
+.imgportrait {
+    border: 3px solid white;
+}
