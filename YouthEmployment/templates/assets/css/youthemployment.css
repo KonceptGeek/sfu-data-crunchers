@@ -1,0 +1,14 @@
+body {
+    font-family: "Helvetica Neue";
+    background: #f2f2f2;
+}
+
+.chart-title {
+    border-bottom: 1px solid #d7d7d7;
+    color: #555;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 7px 0px 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
