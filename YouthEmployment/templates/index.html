@@ -16,7 +16,7 @@
             </div>
         </div>
     </nav>
-    
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-8">
@@ -419,6 +419,8 @@
             .y(d3.scale.linear().domain([0,1]))
             .xAxis().tickFormat(function(v){return v;});
 
+    rent.yAxis().ticks(0);
+
     tuition.width(1000)
             .height(100)
             .margins(margin)
@@ -439,6 +441,10 @@
             .x(d3.scale.linear().domain([minProgramFees-50, maxProgramFees]))
             .y(d3.scale.linear().domain([0,1]))
             .xAxis().tickFormat(function(v){return v;});
+
+    tuition.yAxis().ticks(0);
+
+    
     dc.renderAll();
 
 
