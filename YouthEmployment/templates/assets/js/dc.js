@@ -7938,7 +7938,7 @@
                 return _rows;
             }
             var rowValues = _chart.data().map(_chart.valueAccessor());
-            rowValues.sort(d3.ascending);
+            rowValues.sort(d3.descending);
             return d3.scale.ordinal().domain(rowValues.filter(uniq));
         };
 
