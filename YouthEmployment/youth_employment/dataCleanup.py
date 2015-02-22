@@ -11,6 +11,7 @@ def mergeRentTuition(rentFilePath, tuitionFilePath, feesFilePath):
 
     tuitionData = cleanTuitionData(tuitionData)
     rentData = cleanRentData(rentData)
+    print rentData[0]
     feesData = cleanFees(feesData)
 
     tuitionData = mergeTuitionFees(tuitionData, feesData)
