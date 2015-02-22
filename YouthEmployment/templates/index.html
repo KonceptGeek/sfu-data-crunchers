@@ -375,7 +375,7 @@
         schoolProgramTuitionChart.select(".cols").selectAll("text").each(function(d, i) {
             $(this).attr("dy", "-25");
             var yCord = parseInt($(this).attr("y"), 10) - 25;
-            $(this).attr("text-anchor", "end").attr("style", "").attr("transform", "rotate(-60," + $(this).attr("x") + "," + yCord + ")");
+            $(this).attr("text-anchor", "end").attr("style", "").attr("transform", "rotate(-50," + $(this).attr("x") + "," + yCord + ")");
         });
     });
 
@@ -612,9 +612,9 @@
         return [0, 10000];
     };
 
-    margin = {top: 20, right: 20, bottom: 210, left: 240};
+    margin = {top: 20, right: 20, bottom: 210, left: 200};
     schoolProgramTuitionChart
-            .width(700)
+            .width(785)
             .height(1670)
             .margins(margin)
             .dimension(schoolProgramDim)
@@ -701,7 +701,7 @@
 
     rent.yAxis().ticks(0);
 
-    tuition.width(700)
+    tuition.width(785)
             .height(100)
             .margins(margin)
             .dimension(tuitionDim)
