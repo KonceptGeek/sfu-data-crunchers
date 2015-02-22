@@ -14,3 +14,7 @@ body {
 }
 
 .dc-chart g.row text {fill: black;}
+
+.chart {
+    margin-top: 10px;
+}
