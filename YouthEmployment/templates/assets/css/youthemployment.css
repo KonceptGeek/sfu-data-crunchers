@@ -12,3 +12,5 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
+
+.dc-chart g.row text {fill: black;}

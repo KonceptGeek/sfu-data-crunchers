@@ -202,7 +202,7 @@
      * schoolProgramTuitionChart
      */
     var schoolProgramDim = crossfilterObj.dimension(function(d){
-        return [d.institution, d.program];
+        return [d.program, d.institution];
     });
     var schoolProgramTuitionGroup = schoolProgramDim.group().reduceSum(function(d){return d.programFees});
 
@@ -349,19 +349,20 @@
         return [0, 10000];
     };
 
+    margin = {top: 20, right: 20, bottom: 50, left: 150};
     schoolProgramTuitionChart
-            .width(600)
+            .width(700)
             .height(1200)
             .margins(margin)
             .dimension(schoolProgramDim)
             .group(schoolProgramTuitionGroup)
-            .keyAccessor(function(d) { return d.key[1]; })
-            .valueAccessor(function(d) { return d.key[0]; })
+            .keyAccessor(function(d) { return d.key[0]; })
+            .valueAccessor(function(d) { return d.key[1]; })
             .colorAccessor(function(d) { return d.value; })
             .title(function(d) {
-                return " School: " + d.key[0] + "\n" +
-                        " Program: " + d.key[1] + "\n" +
-                        " TuitionFee: CAD" + d.value;})
+                return " School: " + d.key[1] + "\n" +
+                        " Program: " + d.key[0] + "\n" +
+                        " TuitionFee: CAD " + d.value;})
             .colors(heatColorMapping)
             .calculateColorDomain();
 
@@ -372,12 +373,12 @@
     });*/
     schoolProgramTuitionChart.rowsLabel(function(d) { return d; });
     schoolProgramTuitionChart.colsLabel(function(d) { return d; });
-    schoolProgramTuitionChart.xBorderRadius(1);
-    schoolProgramTuitionChart.yBorderRadius(1);
+    schoolProgramTuitionChart.xBorderRadius(5);
+    schoolProgramTuitionChart.yBorderRadius(5);
 
 
 
-    //margin = {top: 20, right: 20, bottom: 300, left: 80};
+    margin = {top: 60, right: 10, bottom: 50, left: 10};
     schoolRent.width(600)
             .height(1200)
             .margins(margin)
@@ -386,9 +387,10 @@
             .valueAccessor(function (d) {
                 return d.value.rent;
             })
-            .renderLabel(true)
+            .renderLabel(false)
+            .gap(0)
             .elasticX(true);
-
+    schoolRent.fixedBarHeight(10);
     /*schoolRent.renderlet(function(chart){
         chart.selectAll("g.x text")
                 .attr('dx', '-8')
@@ -444,7 +446,7 @@
 
     tuition.yAxis().ticks(0);
 
-    
+
     dc.renderAll();
 
 
