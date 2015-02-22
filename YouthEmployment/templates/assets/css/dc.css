@@ -315,14 +315,3 @@ div.dc-chart {
     pointer-events: all;
     cursor: pointer;
 }
-
-
-/*Custom CSS*/
-
-.dc-chart .axis text {
-    fill: #555;
-}
-
-.dc-chart .axis path, .axis line {
-    stroke: #555;
-}
