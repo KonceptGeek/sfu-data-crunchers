@@ -13,8 +13,12 @@ body {
     text-transform: uppercase;
 }
 
-.dc-chart g.row text {fill: black;}
+.dc-chart g.row text {fill: #555;}
 
 .chart {
     margin-top: 10px;
+}
+
+.dc-chart .grid-line {
+
 }
