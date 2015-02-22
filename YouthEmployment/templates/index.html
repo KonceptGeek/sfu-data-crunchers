@@ -337,6 +337,12 @@
     indexData = {{ indexData|safe }};
     geoJson = {{ geoJson|safe }};
 
+    var schoolToProvinceMapping = {};
+    for (var i in indexData) {
+        var record = indexData[i];
+        schoolToProvinceMapping[record.institution] = record.province;
+    }
+
     var minAvgRent = d3.min(indexData, function(d) {return d.avgRent;});
     var maxAvgRent = d3.max(indexData, function(d) {return d.avgRent;});
 
@@ -574,7 +580,7 @@
                     return d.properties.NAME_NOM;
                 })
                 .title(function (d) {
-                    return "State: " + d.key + "\nTotal Amount Raised: " + numberFormat(d.value ? d.value : 0);
+                    return "City: " + d.key + "\nAverage Rent: " + numberFormat(d.value ? d.value : 0);
                 })
                 .projection(projection);
 
@@ -626,8 +632,20 @@
     schoolProgramTuitionChart.yBorderRadius(5);
 
 
+    var rentColorMapping = function(d) {
+        var province = schoolToProvinceMapping[d];
+        var color = colors[province];
+        console.log(color);
+        return d3.scale.ordinal(color);
+    };
+
+    rentColorMapping.domain = function() {
+        return [0, 10000];
+    };
 
     margin = {top: 57, right: 10, bottom: 50, left: 10};
+    var colors = {"Alberta": 0, "British Columbia": 1, "Manitoba": 2, "New Brunswick": 3, "Newfoundland and Labrador": 4, "Nova Scotia": 5, "Ontario": 6, "Prince Edward Island": 7, "Quebec": 8, "Saskatchewan": 9};
+
     schoolRent.width(600)
             .height(1500)
             .margins(margin)
@@ -639,15 +657,17 @@
             })
             .renderLabel(false)
             .gap(0)
-            .elasticX(true);
+            .elasticX(true)
+            .ordinalColors(["#3182bd", "#6baed6", "#9ecae1", "#c6dbef", "#e6550d", "#fd8d3c", "#fdae6b", "#fdd0a2", "#31a354", "#74c476"])
+            .colorAccessor(function(d){
+                var province = schoolToProvinceMapping[d.key];
+                var idx = colors[province];
+                return idx;
+            })
+            .calculateColorDomain();
+
     schoolRent.fixedBarHeight(13);
-    /*schoolRent.renderlet(function(chart){
-        chart.selectAll("g.x text")
-                .attr('dx', '-8')
-                .attr('dy', '-2')
-                .attr('transform', "rotate(-65)")
-                .style("text-anchor", "end");
-    });*/
+
 
     margin = {top: 20, right: 20, bottom: 50, left: 50};
     rent.width(600)
