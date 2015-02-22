@@ -1,10 +1,18 @@
 body {
-    font-family: "Oswald", serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 h1 {
-    font-family: 'Josefin Slab', serif;
+    font-family: 'Graduate', cursive;
+    color: #4A3A47;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Graduate', cursive;
     color: #4A3A47;
     font-size: 42px;
     text-align: center;
@@ -73,8 +81,8 @@ h1 {
 
 .dc-chart g.row text {
     fill: #555;
-    font-family: 'Oswald', serif;
-    font-size: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 .chart {
@@ -83,7 +91,7 @@ h1 {
 
 .dc-chart .axis text {
     fill: #555;
-    font-family: 'Oswald', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .dc-chart .axis path, .axis line {
