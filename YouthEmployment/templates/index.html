@@ -56,6 +56,8 @@
     var minProgramFees = d3.min(indexData, function(d) {return d.programFees;});
     var maxProgramFees = d3.max(indexData, function(d) {return d.programFees;});
 
+
+
     /**
      * Charts
      */
@@ -68,7 +70,7 @@
     var schoolProgramTuitionChart = dc.heatMap("#school-program-tution");
     schoolProgramTuitionChart.turnOnControls(true);
 
-    var schoolRent = dc.barChart("#school-rent");
+    var schoolRent = dc.rowChart("#school-rent");
     schoolRent.turnOnControls(true);
 
     var rent = dc.barChart("#rent");
@@ -254,7 +256,7 @@
     /**
      * Chart attributes
      */
-    var margin = {top: 20, right: 20, bottom: 50, left: 50};
+    var margin = {top: 20, right: 20, bottom: 50, left: 80};
     var projection = d3.geo.conicConformal()
             .rotate([98, 0])
             .center([60, 60])
@@ -287,7 +289,7 @@
 
     provinceSchoolChart.width(400)
             .height(300)
-            .margins(margin)
+            //.margins(margin)
             .dimension(provinceDim)
             .group(schoolProvinceGroup)
             .valueAccessor(function(d){return d.value.institutionCount;})
@@ -304,13 +306,13 @@
     };
 
     schoolProgramTuitionChart
-            .width(1000)
-            .height(500)
+            .width(600)
+            .height(1200)
             .margins(margin)
             .dimension(schoolProgramDim)
             .group(schoolProgramTuitionGroup)
-            .keyAccessor(function(d) { return d.key[0]; })
-            .valueAccessor(function(d) { return d.key[1]; })
+            .keyAccessor(function(d) { return d.key[1]; })
+            .valueAccessor(function(d) { return d.key[0]; })
             .colorAccessor(function(d) { return d.value; })
             .title(function(d) {
                 return " School: " + d.key[0] + "\n" +
@@ -319,32 +321,39 @@
             .colors(heatColorMapping)
             .calculateColorDomain();
 
+    //schoolProgramTuitionChart.rows(function(d){console.log(d); return d;})
+    /*schoolProgramTuitionChart.renderlet(function(chart){
+        chart.selectAll("text").attr('transform', "rotate(-65)");
+//                .style("text-anchor", "end");
+    });*/
     schoolProgramTuitionChart.rowsLabel(function(d) { return d; });
     schoolProgramTuitionChart.colsLabel(function(d) { return d; });
     schoolProgramTuitionChart.xBorderRadius(1);
     schoolProgramTuitionChart.yBorderRadius(1);
 
 
-    schoolRent.width(1000)
-            .height(500)
+
+    //margin = {top: 20, right: 20, bottom: 300, left: 80};
+    schoolRent.width(600)
+            .height(1200)
             .margins(margin)
             .dimension(schoolDim)
             .group(schoolRentGroup)
             .valueAccessor(function (d) {
                 return d.value.rent;
             })
-            .centerBar(true)
-            .y(d3.scale.linear().domain([minAvgRent-50, maxAvgRent]))
-            .x(d3.scale.ordinal())
-            .xUnits(dc.units.ordinal);
+            .renderLabel(true)
+            .elasticX(true);
 
-    schoolRent.renderlet(function(chart){
+    /*schoolRent.renderlet(function(chart){
         chart.selectAll("g.x text")
-                .attr('dx', '50')
+                .attr('dx', '-8')
                 .attr('dy', '-2')
-                .attr('transform', "rotate(90)");
-    });
+                .attr('transform', "rotate(-65)")
+                .style("text-anchor", "end");
+    });*/
 
+    margin = {top: 20, right: 20, bottom: 50, left: 50};
     rent.width(1000)
             .height(100)
             .margins(margin)
