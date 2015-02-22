@@ -11,6 +11,10 @@ h1 {
     font-weight: 700;
 }
 
+.container-fluid {
+    width: 1405px !important;
+}
+
 .heading {
     margin: 40px 0;
 }
