@@ -5,6 +5,7 @@
         <title>College Education Costs Canada</title>
         {% load static %}
         <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:700|Oswald:300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/flaticon.css' %}">
         <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}" />
         <link rel="stylesheet" type="text/css" href="{% static 'css/dc.css' %}" />
         <link rel="stylesheet" type="text/css" href="{% static 'css/youthemployment.css' %}" />
@@ -334,7 +335,6 @@
             </div>
         </div>
 
-
     </div>
     <div class="tagline m-top-50">
         <div class="container-fluid">
@@ -343,7 +343,10 @@
             </div>
             <div class="row sub-sec">
                 <div class="col-md-6">
-                    <button type="button" download="data.csv" class="btn btn-lg btn-default" aria-label="Download Data" id="download-data"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> Download your selection</button>
+                    <button type="button" download="data.csv" class="btn btn-lg btn-default" aria-label="Download Data" id="download-data"><i class="flaticon-download164"></i>  Download your selection</button>
+                </div>
+                <div class="col-md-6">
+                    <a class="btn btn-lg btn-default" href="http://www.facebook.com/sharer.php?u=http://sfu-data-crunchers.herokuapp.com" target="_blank"><i class="flaticon-facebook55"></i></a><a class="btn btn-lg btn-default button-link" href="http://twitter.com/share?url=http://sfu-data-crunchers.herokuapp.com" target="_blank"><i class="flaticon-twitter1"></i></a>
                 </div>
             </div>
         </div>
