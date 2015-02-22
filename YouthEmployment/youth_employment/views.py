@@ -12,14 +12,15 @@ def index(request):
     with open(joinedPath+'/cleanData.json') as dataFile:
         cleanData = json.load(dataFile)
 
-    with open(joinedPath+'/cities.geojson') as geoFile:
+    with open(joinedPath+'/cities_filtered.geojson') as geoFile:
         geoJson = json.load(geoFile)
 
-    with open(joinedPath+'/canada.geojson') as canadaGeoFile:
-        canadaGeo = json.load(canadaGeoFile)
+    # with open(joinedPath+'/canada.geojson') as canadaGeoFile:
+    #     canadaGeo = json.load(canadaGeoFile)
 
     cleanJson = json.dumps(cleanData)
     geoJson = json.dumps(geoJson)
-    canadaJson = json.dumps(canadaGeo)
-    contextDict = {'indexData': cleanJson, 'geoJson': geoJson, 'canadaJson': canadaJson}
+    # canadaJson = json.dumps(canadaGeo)
+    # contextDict = {'indexData': cleanJson, 'geoJson': geoJson, 'canadaJson': canadaJson}
+    contextDict = {'indexData': cleanJson, 'geoJson': geoJson}
     return render_to_response('index.html', contextDict, context)
