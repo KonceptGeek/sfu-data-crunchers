@@ -51,6 +51,11 @@ h1 {
 .map-chart {
     width: 575px;
 }
+
+.m-top-50 {
+    margin-top: 50px;
+}
+
 /*For charts*/
 
 .chart-title {
