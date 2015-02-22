@@ -328,6 +328,12 @@
             </div>
         </div>
 
+        <div class="row">
+            <div id ="data-count">
+                <aside id="dc-data-count"></aside>
+            </div>
+        </div>
+
         <button type="button" download="data.csv" class="btn btn-default" aria-label="Download Data" id="download-data">
                 <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>  Download Data
         </button>
@@ -389,6 +395,8 @@
 
     var tuition = dc.barChart("#tuition");
     tuition.turnOnControls(true);
+
+    var dataCount = dc.dataCount('#dc-data-count');
 
     var crossfilterObj = crossfilter(indexData);
 
@@ -724,6 +732,14 @@
 
     tuition.yAxis().ticks(0);
 
+    var all = crossfilterObj.groupAll();
+    dataCount
+            .dimension(crossfilterObj)
+            .group(all)
+            .html({
+                some: '<strong>%filter-count</strong> selected out of <strong>%total-count</strong> records' + ' | <a href=\'javascript:dc.filterAll(); dc.renderAll();\'>Reset All</a>',
+                all:'All records selected.'
+            });
 
     dc.renderAll();
 
