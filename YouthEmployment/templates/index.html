@@ -18,7 +18,7 @@
             <button type="button" download="data.csv" class="btn btn-default" aria-label="Download Data" id="download-data">
                 <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>  Download Data
             </button>
-            
+
         </div>
     </nav>
 
@@ -358,7 +358,9 @@
     schoolProgramTuitionChart.renderlet(function(schoolProgramTuitionChart){
         schoolProgramTuitionChart.select(".rows").selectAll("text").attr("dy", "3");
         schoolProgramTuitionChart.select(".cols").selectAll("text").each(function(d, i) {
-           $(this).attr("text-anchor", "end").attr("style", "").attr("transform", "rotate(-60," + $(this).attr("x") + "," + $(this).attr("y") + ")");
+            $(this).attr("dy", "-25");
+            var yCord = parseInt($(this).attr("y"), 10) - 25;
+            $(this).attr("text-anchor", "end").attr("style", "").attr("transform", "rotate(-60," + $(this).attr("x") + "," + yCord + ")");
         });
     });
 
